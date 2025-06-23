@@ -1,8 +1,8 @@
 {
       "builds": [{
-        "src": "package.json",
+        "src": "/package.json",
         "use": "@vercel/static-build",
-        "config": { "distDir": ".medusa" }
+        "config": { "distDir": "/.medusa/server" }
       }],
-      "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+      "rewrites": [{ "source": "/(.*)", "destination": "/.medusa/server/index.html" }]
 }
