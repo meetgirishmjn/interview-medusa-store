@@ -1,7 +1,7 @@
 {
       "builds": [{
-        "src": "path/to/your/package.json",
+        "src": "package.json",
         "use": "@vercel/static-build",
-        "config": { "distDir": "path/to/your/dist" }
+        "config": { "distDir": ".medusa/server" }
       }]
     }
